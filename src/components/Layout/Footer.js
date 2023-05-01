@@ -1,8 +1,6 @@
 import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import FacebookIcon from "@mui/icons-material/Facebook";
 import { Box, Typography } from "@mui/material";
 const Footer = () => {
   return (
@@ -27,9 +25,7 @@ const Footer = () => {
         >
           {/* icons */}
           <InstagramIcon />
-          <TwitterIcon />
-          <GitHubIcon />
-          <YouTubeIcon />
+          <FacebookIcon />
         </Box>
         <Typography
           variant="h5"
@@ -39,7 +35,7 @@ const Footer = () => {
             },
           }}
         >
-          All Rights Reserved &copy; Techinfo YT
+          All Rights Reserved 2023 &copy; Created by Mike Woods
         </Typography>
       </Box>
     </>

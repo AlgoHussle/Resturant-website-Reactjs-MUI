@@ -12,8 +12,7 @@ const About = () => {
           textAlign: "center",
           p: 5,
           color: "white",
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundRepeat: "no-repeat",
+          background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage}) no-repeat center center fixed`,
           backgroundSize: "cover",
           boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.5)",
           "& h4": {
@@ -34,8 +33,8 @@ const About = () => {
             margin: "2rem 0",
             boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.3)",
           },
-          "@media (max-width:600px)": {
-            mt: 0,
+          "@media (max-width: 600px)": {
+            backgroundAttachment: "scroll",
             "& h4": {
               fontSize: "2rem",
             },
