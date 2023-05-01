@@ -29,7 +29,7 @@ const Home = () => {
             Best Food In the City
           </p>
           <Link to="/menu">
-            <button className="orderBtn btn-bounce">ORDER NOW</button>
+            <button className="orderBtn animate-bounce">ORDER NOW</button>
           </Link>
         </div>
       </div>
